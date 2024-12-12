@@ -8,4 +8,4 @@ LBT_VERBOSE=1 \
 OMP_PROC_BIND=true \
 OPENBLAS_MAIN_FREE=1 \
 OPENBLAS_NUM_THREADS=1 \
-exec ./lbtbench
+exec build/lbtbench-gcc
